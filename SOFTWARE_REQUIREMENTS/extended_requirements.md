@@ -40,9 +40,3 @@ While functional and non-functional requirements ensure the product **works** an
 
 ---
 
-## 📌 Conclusion
-
-Understanding and planning for **Extended Requirements** is key to building **sustainable**, **adaptable**, and **market-ready** software.  
-They are often the differentiator between a working product and a winning product.
-
----
