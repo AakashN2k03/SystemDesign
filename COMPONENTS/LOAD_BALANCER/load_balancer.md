@@ -66,6 +66,7 @@ The selected server processes the request and returns the response, which is the
 ---
 
 ## ⚠️ Failure Without Load Balancer
+![withoutLoad Balancer Diagram]( https://media.geeksforgeeks.org/wp-content/uploads/20241103190358904939/without-load-balancing.webp)
 
 - Single point of failure = one server crash can take the app down.
 - No traffic distribution leads to server overloads.
