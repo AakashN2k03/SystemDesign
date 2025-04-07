@@ -35,7 +35,6 @@ While functional and non-functional requirements ensure the product **works** an
 - Scalable 🌱
 - Business-aligned 📊
 - Future-ready 🚀
-- Legally compliant 🛡️
 - User-friendly across regions 🌍
 
 ---
