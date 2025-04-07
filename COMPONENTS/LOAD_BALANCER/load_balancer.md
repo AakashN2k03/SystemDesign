@@ -5,7 +5,8 @@
 A **Load Balancer** is a crucial component in system design that distributes incoming network traffic across multiple backend servers. Its goal is to ensure that no single server is overwhelmed, thereby improving system **availability**, **scalability**, and **reliability**.
 
 ---
-![Load Balancer Diagram](https://upload.wikimedia.org/wikipedia/commons/5/5e/Load_balancer_schematic.png)
+![Load Balancer Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20240129101032/load-balancer.webp)
+
 
 
 ## 🔧 Why is it Needed?
