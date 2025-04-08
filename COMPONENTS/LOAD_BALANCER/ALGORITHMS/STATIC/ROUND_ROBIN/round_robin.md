@@ -51,7 +51,6 @@ This is how Round Robin works — **ensuring everyone gets a fair share**.
 
 ✅ **Simple to implement**  
 ✅ **Fair distribution** (if all servers have equal capacity)  
-✅ Ideal for **stateless services** (no session tracking needed)
 
 ---
 
