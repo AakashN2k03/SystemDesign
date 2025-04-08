@@ -2,7 +2,7 @@
 
 The Source IP Hash Load Balancing Algorithm is a load balancing technique used to distribute network traffic across multiple backend servers in a consistent and deterministic way. It works by hashing the client's source IP address to determine which backend server should handle the request.
 
-## How It Works (Step-by-Step)
+## 🔧 How It Works (Step-by-Step)
 
 1. **Extract Source IP**: When a client sends a request, the load balancer extracts the IP address of the client (source IP).
 2. **Apply Hash Function**: A hash function (like CRC32, MD5, SHA-1, or a simple modulus-based function) is applied to the source IP address.
@@ -28,7 +28,7 @@ The Source IP Hash Load Balancing Algorithm is a load balancing technique used t
 | ❌ Scalability Issues | If the number of servers changes (e.g., one is added or removed), hash results shift, breaking persistence. |
 | ❌ Not Effective for NAT Clients | If multiple users are behind a NAT (sharing same IP), they'll all be directed to the same server. |
 
-## Use Case Example
+## 📊 Use Case Example
 
 Let's say we have 3 backend servers:
 ```
@@ -46,7 +46,7 @@ Every time the client with IP 192.168.1.2 makes a request, it will be routed to 
 
 ## Technical Deep Dive
 
-### Role of the Hash Function
+### 🔐 Role of the Hash Function
 
 The hash function is the core component of this algorithm. Its role is:
 - To convert the source IP address (like 192.168.1.10) into a numeric value (a hash). This value helps decide which server to send the request to.
@@ -56,7 +56,7 @@ This ensures every IP address always maps to the same server (as long as the num
 
 ### Understanding Load Imbalance
 
-**"Some IPs may be more active than others, causing server imbalance" – What it means?**
+**📉 "Some IPs may be more active than others, causing server imbalance" – What it means?**
 
 Imagine this: You have 5 clients (with 5 unique IPs) and 3 servers. But one of those clients is a very active user, sending thousands of requests per second, while others send only a few. Since that client's IP always hashes to the same server, that one server gets overloaded, while the others sit idle.
 
@@ -70,7 +70,7 @@ This is called traffic skew or load imbalance:
 
 ### NAT Client Problem
 
-**"Not Effective for NAT Clients" – What does it mean?**
+**🌐 "Not Effective for NAT Clients" – What does it mean?**
 
 NAT (Network Address Translation) is when multiple users share the same public IP address — like in:
 - Schools
