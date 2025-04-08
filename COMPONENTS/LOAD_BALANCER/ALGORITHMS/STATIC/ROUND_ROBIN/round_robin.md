@@ -12,7 +12,7 @@ Assume we have **3 servers**:
 
 - 🅰️ Server A  
 - 🅱️ Server B  
-- 🆑 Server C  
+- 🅲 Server C  
 
 Incoming requests are handled like this:
 
