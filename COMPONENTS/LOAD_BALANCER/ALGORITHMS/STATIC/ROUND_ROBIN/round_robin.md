@@ -47,6 +47,12 @@ This is how Round Robin works — **ensuring everyone gets a fair share**.
 
 ---
 
+## When to use Round Robin Load Balancing Algorithm
+-  Ideal for applications where all servers have similar capacity and performance.
+- Works well for evenly distributed workloads, such as basic web requests.
+- Best suited for simple environments without complex resource needs.
+- Useful in setups where request order matters less than balanced distribution across servers.
+
 ## 🧠 Advantages
 
 ✅ **Simple to implement**  
