@@ -10,9 +10,9 @@
 
 Assume we have **3 servers**:
 
-- 🅰️ Server A  
-- 🅱️ Server B  
-- 🅲 Server C  
+-  Server A  
+-  Server B  
+-  Server C  
 
 Incoming requests are handled like this:
 
@@ -42,6 +42,8 @@ This is how Round Robin works — **ensuring everyone gets a fair share**.
 1. **Client** – A user/browser sending requests  
 2. **Load Balancer** – Uses the Round Robin algorithm  
 3. **Backend Servers** – Multiple app instances to handle the load  
+
+![Round Robin Load Balancing](https://media.geeksforgeeks.org/wp-content/uploads/20240130183312/Round-Robin-(1).webp)
 
 ---
 
