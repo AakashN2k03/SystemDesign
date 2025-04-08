@@ -35,6 +35,7 @@ In one cycle of requests:
 - **Server3** receives: `(0.1 / 0.6) = 16.67%`
 
 ---
+![weight_round_robin](https://media.geeksforgeeks.org/wp-content/uploads/20240130183429/Weighted-Round-Robin-(1).webp)
 
 ## 🕐 When to Use Weighted Round Robin
 
@@ -45,7 +46,6 @@ In one cycle of requests:
 
 ---
 
-## ✅ Benefits and ⚠️ Drawbacks
 
 ### ✅ Benefits
 - **Capacity-Aware:** Assigns more load to powerful servers
