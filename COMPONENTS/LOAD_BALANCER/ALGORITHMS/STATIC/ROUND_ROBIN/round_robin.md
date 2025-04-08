@@ -2,11 +2,7 @@
 
 **Round Robin** is one of the **simplest** and most commonly used algorithms for load balancing in system design.
 
----
-
-## 📌 Basic Idea
-
-Distribute incoming requests **sequentially and cyclically** across the available servers — just like dealing cards in a circle.
+- Distribute incoming requests **sequentially and cyclically** across the available servers — just like dealing cards in a circle.
 
 ---
 
