@@ -68,6 +68,18 @@ This is called traffic skew or load imbalance:
 | 💤 Other servers are underused | Wastes resources |
 | 💥 Server may crash | If overloaded by too much traffic |
 
+### “A server becomes a bottleneck”
+
+It means that this one server is handling too much load, and because of that:
+
+⚠️ It slows down
+
+❌ It can’t process requests quickly
+
+⛔ It may drop or reject requests
+
+🧠 It limits the performance of the whole system
+
 ### NAT Client Problem
 
 **🌐 "Not Effective for NAT Clients" – What does it mean?**
