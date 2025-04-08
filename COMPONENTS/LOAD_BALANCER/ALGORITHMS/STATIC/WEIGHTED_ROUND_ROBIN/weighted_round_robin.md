@@ -1,7 +1,5 @@
 # ⚖️ Weighted Round Robin Load Balancing Algorithm
 
-## 📘 Overview
-
 **Weighted Round Robin** is a static load balancing technique similar to standard Round Robin, but with one key difference: **each server is assigned a weight**. These weights influence how many requests a server will handle relative to others, enabling better resource utilization in environments with heterogeneous server capacities.
 
 ---
