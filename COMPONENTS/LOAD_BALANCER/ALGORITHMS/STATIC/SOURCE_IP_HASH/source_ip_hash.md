@@ -43,7 +43,8 @@ And clients with the following IPs:
 ```
 
 Every time the client with IP 192.168.1.2 makes a request, it will be routed to Server B consistently.
-![image](https://github.com/user-attachments/assets/4a3f73a9-eb92-48ab-859f-00e74f4c9418)
+
+![source_ip_hash](https://github.com/user-attachments/assets/4a3f73a9-eb92-48ab-859f-00e74f4c9418)
 
 
 ## Technical Deep Dive
