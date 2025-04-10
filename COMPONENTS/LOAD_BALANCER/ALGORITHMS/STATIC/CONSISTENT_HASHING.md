@@ -1,4 +1,4 @@
-# 📘 Consistent Hashing: A Beginner-Friendly Guide
+# 📘 Consistent Hashing
 
 ## 🧠 What is Consistent Hashing?
 Consistent Hashing is a powerful technique to distribute requests or data across servers in a dynamic system. It minimizes disruption when servers are added or removed, making it ideal for load balancers, distributed caches, and scalable systems.
