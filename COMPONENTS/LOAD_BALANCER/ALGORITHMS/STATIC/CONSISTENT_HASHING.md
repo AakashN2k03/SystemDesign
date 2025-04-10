@@ -44,7 +44,7 @@ So just by changing the number of servers, the mapping of almost every key chang
    - If no server is found clockwise (end of ring), wrap around to `0`.
 
 ---
-
+![Consistent_hashing](https://media.geeksforgeeks.org/wp-content/uploads/20231214182509/Mapping-in-the-hashing-(1).jpg)
 ## 🧪 Example Setup
 ### Servers:
 - Server A → 100
@@ -56,10 +56,10 @@ So just by changing the number of servers, the mapping of almost every key chang
 - It goes to the next server clockwise → **Server B (500)**
 
 ### Ranges:
-- 0–100 → A
-- 100–500 → B
-- 500–900 → C
-- 900–0 → A
+- 0–100 → A      (0–99),
+- 100–500 → B    (100–499),
+- 500–900 → C    (500–899),
+- 900–0 → A      (900–999), // considertotoal range 0-999
 
 ---
 
