@@ -85,7 +85,7 @@ Some users may stay in a session for 2 minutes, others for 2 hours.
 - Useful when some connections stay active longer
 - Great for systems with fluctuating traffic, as it balances based on real-time server load
 
-###💡 Benefits
+### 💡 Benefits
 - **Balanced Load:** Distributes traffic to servers with the fewest active connections, preventing overloading
 - **Dynamic:** Adapts to changing server workloads in real-time
 
