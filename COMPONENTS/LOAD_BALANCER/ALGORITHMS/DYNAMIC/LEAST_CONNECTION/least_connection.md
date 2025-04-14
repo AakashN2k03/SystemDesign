@@ -85,13 +85,11 @@ Some users may stay in a session for 2 minutes, others for 2 hours.
 - Useful when some connections stay active longer
 - Great for systems with fluctuating traffic, as it balances based on real-time server load
 
-## 📊 Benefits and Drawbacks
-
-### Benefits
+###💡 Benefits
 - **Balanced Load:** Distributes traffic to servers with the fewest active connections, preventing overloading
 - **Dynamic:** Adapts to changing server workloads in real-time
 
-### Limitations
+### ⚠️ Limitations
 - **Tracking Overhead:** Needs real-time monitoring of connection counts
 - **Not Ideal for Stateless Systems:** If every request is short and stateless, round-robin might be simpler
 - **Slow-Closing Connections:** Some connections staying open unnecessarily can skew the load count
