@@ -61,6 +61,7 @@ Some users may stay in a session for 2 minutes, others for 2 hours.
 ➡️ Using Least Connection, each new user is more likely to go to a less-loaded server, balancing the system in real-time.
 ✅ Better performance, fewer timeouts.
 
+![least_connection](https://media.geeksforgeeks.org/wp-content/uploads/20240130183553/Least-Response-(2).webp)
 ## 🧠 How Does the Load Balancer Track Connections?
 
 1. **Load Balancer Acts as a Gatekeeper**
