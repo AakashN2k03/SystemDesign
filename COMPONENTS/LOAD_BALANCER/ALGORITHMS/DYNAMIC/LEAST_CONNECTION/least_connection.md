@@ -91,5 +91,5 @@ Some users may stay in a session for 2 minutes, others for 2 hours.
 
 ### ⚠️ Limitations
 - **Tracking Overhead:** Needs real-time monitoring of connection counts
-- **Not Ideal for Stateless Systems:** If every request is short and stateless, round-robin might be simpler
-- **Slow-Closing Connections:** Some connections staying open unnecessarily can skew the load count
+- **Session Persistence Issues (Sticky Sessions)**: In applications that require sticky sessions (where a user needs to consistently connect to the same server), Least Connection might not be suitable unless combined with session management.
+- **Slow-Closing Connections (also called a "zombie" or idle connection) :** Some connections staying open unnecessarily can skew the load count
