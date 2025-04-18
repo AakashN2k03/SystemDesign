@@ -46,6 +46,14 @@ You have 3 backend servers:
 
 📦 The load balancer will route the request to **Server C** (lowest score = most resources available).
 
+![response-based_load_balancing](https://media.geeksforgeeks.org/wp-content/uploads/20241111132131504562/resource-based-load-balancing-algorithm.webp)
+## 📦 Where It's Used
+
+* 🌩️ **Cloud Load Balancers** (AWS ELB, Azure Load Balancer, GCP Load Balancer)
+* 🛠️ **Microservices in Kubernetes**
+* 🧪 **AI/ML Inference Servers** (choose GPU with more free memory)
+* 🎮 **Gaming Servers** (route users to less crowded nodes)
+
 ## ✅ Advantages
 
 | Benefit | Description |
@@ -64,15 +72,4 @@ You have 3 backend servers:
 | 🐢 **Latency in Updates** | Delayed metrics can cause misinformed decisions. |
 | 🧩 **Requires Integration** | Needs tools to collect, transmit, and read resource metrics. |
 
-## 📦 Where It's Used
 
-* 🌩️ **Cloud Load Balancers** (AWS ELB, Azure Load Balancer, GCP Load Balancer)
-* 🛠️ **Microservices in Kubernetes**
-* 🧪 **AI/ML Inference Servers** (choose GPU with more free memory)
-* 🎮 **Gaming Servers** (route users to less crowded nodes)
-
-## 💬 Real-World Analogy
-
-Imagine you're assigning tasks to team members. Instead of giving equal work to everyone, you check who's currently **free** (has time), and who's **busy** (overloaded). You then assign work to the one who's **least busy**, ensuring better productivity and faster delivery.
-
-That's exactly what Resource-Based Load Balancing does — it ensures no one server is overworked while others are idle.
