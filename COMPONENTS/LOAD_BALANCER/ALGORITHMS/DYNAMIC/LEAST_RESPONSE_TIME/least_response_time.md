@@ -39,12 +39,12 @@ Consider 3 backend servers:
 🟢 The load balancer routes new requests to **Server B**, since it has the **least average response time**.
 
 ---
-
+![least_response_time](https://media.geeksforgeeks.org/wp-content/uploads/20240130183553/Least-Response-(2).webp)
 ## ✅ Advantages
 
 - **Performance-Aware**: Prioritizes the most responsive server.
 - **Adaptive**: Adjusts in real-time to system load.
-- **Prevents Overloading**: Automatically avoids sluggish servers.
+- **Prevents Overloading**: Automatically avoids sluggish servers( slow-performing servers ).
 
 ---
 
@@ -60,7 +60,6 @@ Consider 3 backend servers:
 
 - **CDNs (Content Delivery Networks)**
 - **Web Application Load Balancers** (NGINX, AWS ELB, HAProxy)
-- **Microservice Service Meshes** (Istio, Envoy)
 
 ---
 
@@ -103,11 +102,4 @@ This self-correcting loop ensures **balanced traffic**.
 > Everyone rushes to the fastest one, which then slows down.  
 > People then shift to other counters. Over time, balance is restored.
 
----
 
-## 📚 Conclusion
-
-The Least Response Time Method offers **intelligent, performance-driven routing**.  
-While it comes with some **complexity**, it ensures **optimal user experience** in modern distributed systems when implemented correctly.
-
----
