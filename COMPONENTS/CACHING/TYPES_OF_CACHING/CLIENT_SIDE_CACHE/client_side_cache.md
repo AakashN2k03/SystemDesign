@@ -1,7 +1,5 @@
 # Client-Side Cache
 
-## Overview
-
 Client-Side Cache refers to the practice of storing data on the client’s device (such as a web browser or mobile app) in order to reduce the need to repeatedly request the same data from the server. This helps improve performance by making web pages load faster and reducing the load on the server.
 
 ## How It Works
