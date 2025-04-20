@@ -17,24 +17,24 @@ A Database Cache is a temporary storage layer that sits between your application
 - By offloading frequent queries from the database, caching allows your system to handle more users without slowing down the app, thereby improving scalability.
 
 #### 🔄 How It Works (Step-by-Step)
-Example Scenario: Showing User Profile by ID
-First Time Request:
+#### Example Scenario: Showing User Profile by ID
+- First Time Request:
 
-The application asks the database:
-“Give me data for user ID = 101”
+- The application asks the database:
+- “Give me data for user ID = 101”
 
-The database returns the data:
+- The database returns the data:
 {name: "Aakash", age: 22}
 
-The application then stores this data in the cache for future use.
+- The application then stores this data in the cache for future use.
 
-Next Time Request (Same User):
+- Next Time Request (Same User):
 
-The application checks the cache first:
+- The application checks the cache first:
 
-It finds the data in the cache.
+- It finds the data in the cache.
 
-Instead of querying the database again, the app directly serves the data from the cache ➡️ faster response.
+- Instead of querying the database again, the app directly serves the data from the cache ➡️ faster response.
 
 #### 🚀 Benefits of Database Caching
 - Reduced Latency: Data is retrieved from memory, resulting in much faster response times.
