@@ -16,6 +16,8 @@ Client-Side Cache refers to the practice of storing data on the client’s devic
    - `ETag`: Allows for conditional requests based on the version of the resource.
    - `Expires`: Specifies a date/time after which the cached data is considered stale.
 
+![client_side_cache](https://github.com/user-attachments/assets/692bbd12-9d50-4801-92c4-4fb1dffbf9a4)
+
 ## Benefits
 
 - **Faster Load Times**:
