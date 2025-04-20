@@ -19,7 +19,7 @@ When an app frequently needs certain data, like:
 The **application server** can store this data in the cache. When users request it, the app can instantly provide the cached version instead of processing a full database query. This significantly improves performance by avoiding the overhead of database access.
 
 ---
-
+![application_server_cache](https://media.geeksforgeeks.org/wp-content/uploads/20240212140144/Application-Server-Cache-(1).webp)
 ## ⚠️ Drawbacks of Application Server Cache
 
 When you add multiple servers to handle a high volume of requests, a **load balancer** sends requests to different nodes (servers). However, each node only has its own cache and doesn’t know about the cached data on other nodes. 
