@@ -33,3 +33,4 @@ Client-Side Cache refers to the practice of storing data on the client’s devic
 
 When you visit a website, such as a news site, images and CSS files (e.g., logo images, styling sheets) are stored in your browser's cache. The next time you visit the website, these resources are fetched from the local cache instead of being downloaded again, leading to faster page loads.
 
+other eg: Browser Cache,LocalStorage/SessionStorage,Application Cache
