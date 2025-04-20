@@ -36,7 +36,7 @@ A Database Cache is a temporary storage layer that sits between your application
 
 - Instead of querying the database again, the app directly serves the data from the cache ➡️ faster response.
 
-![Database_cache](![image](https://github.com/user-attachments/assets/70501d3e-08e0-423f-b12a-2401a0187c81)
+![Database_cache](https://github.com/user-attachments/assets/70501d3e-08e0-423f-b12a-2401a0187c81)
 )
 #### 🚀 Benefits of Database Caching
 - Reduced Latency: Data is retrieved from memory, resulting in much faster response times.
