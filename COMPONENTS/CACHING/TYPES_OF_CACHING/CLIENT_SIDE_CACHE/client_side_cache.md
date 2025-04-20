@@ -24,7 +24,7 @@ Client-Side Cache refers to the practice of storing data on the client’s devic
   Storing resources locally allows websites to load much quicker, improving the user experience.
   
 - **Reduced Bandwidth Usage**:
-  By avoiding the need to re-download resources, client-side caching reduces bandwidth consumption, which is beneficial for both users and website servers.
+  By avoiding the need to re-download resources, client-side caching reduces bandwidth consumption, which is beneficial for both users and website servers.(Bandwidth refers to the maximum rate at which data can be transferred over a network or internet connection)
   
 - **Offline Access**:
   Some cached data may still be accessible even when the device is offline, allowing the user to interact with the website without an active internet connection.
