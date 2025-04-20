@@ -1,21 +1,21 @@
-📚 Database Cache
-🔍 What is Database Cache?
+### 📚 Database Cache
+#### 🔍 What is Database Cache?
 A Database Cache is a temporary storage layer that sits between your application and your database. It stores frequently accessed data in memory (RAM), so that when the same data is requested again, it can be delivered faster without querying the database every time.
 
-💡 Why Use Database Cache?
-1. Speed
+#### 💡 Why Use Database Cache?
+#### 1. Speed
 Memory access is much faster than disk/database access. By storing data in memory, you significantly reduce the time taken to retrieve data.
 
-2. Reduce Load
+#### 2. Reduce Load
 Caching reduces the number of times your application queries the database, which lowers the load on the database server.
 
-3. Cost-Efficient
+#### 3. Cost-Efficient
 Fewer database calls mean reduced cloud/database usage costs, which makes caching a great solution for scalable and cost-effective systems.
 
-4. Scalability
+#### 4. Scalability
 By offloading frequent queries from the database, caching allows your system to handle more users without slowing down the app, thereby improving scalability.
 
-🔄 How It Works (Step-by-Step)
+#### 🔄 How It Works (Step-by-Step)
 Example Scenario: Showing User Profile by ID
 First Time Request:
 
@@ -35,7 +35,7 @@ It finds the data in the cache.
 
 Instead of querying the database again, the app directly serves the data from the cache ➡️ faster response.
 
-🚀 Benefits of Database Caching
+####🚀 Benefits of Database Caching
 Reduced Latency: Data is retrieved from memory, resulting in much faster response times.
 
 Reduced Database Load: With caching, fewer database queries are required, easing the load on your DB server.
