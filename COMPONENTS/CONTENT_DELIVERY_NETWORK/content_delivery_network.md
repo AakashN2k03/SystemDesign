@@ -56,3 +56,16 @@ Imagine your website is hosted in **New York**, and a user from **India** tries 
 - ⚡ **Fastly**
 
 ---
+
+---
+
+## 🆚 CDN vs Caching – Key Differences
+
+| Feature        | CDN                                                   | Caching                                                 |
+|----------------|--------------------------------------------------------|----------------------------------------------------------|
+| **Function**   | Delivers content via globally distributed edge servers | Temporarily stores content for quicker access            |
+| **Location**   | Works through edge servers across regions              | Happens locally (browser/server)                         |
+| **Content**    | Static + Dynamic content                               | Mostly static content (HTML, CSS, images, etc.)          |
+| **Setup**      | Requires CDN provider setup and DNS config            | Implemented via plugins, headers, or browser settings    |
+
+---
