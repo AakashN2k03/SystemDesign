@@ -38,6 +38,9 @@ A **CDN solves this** by **caching content closer to the users**, drastically im
 
 ---
 
+![CDN](https://media.geeksforgeeks.org/wp-content/uploads/20231222113811/Example-of-CDN.jpg)
+In the fig, green is the original server
+
 ## 📍 Real-World Example
 
 Imagine your website is hosted in **New York**, and a user from **India** tries to access it:
