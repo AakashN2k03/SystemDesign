@@ -65,7 +65,7 @@ Imagine your website is hosted in **New York**, and a user from **India** tries 
 |----------------|--------------------------------------------------------|----------------------------------------------------------|
 | **Function**   | Delivers content via globally distributed edge servers | Temporarily stores content for quicker access            |
 | **Location**   | Works through edge servers across regions              | Happens locally (browser/server)                         |
-| **Content**    | Static + Dynamic content                               | Mostly static content (HTML, CSS, images, etc.)          |
+| **Content**    | Static + Dynamic content                               | Mostly static content (HTML, CSS, images, etc.) ,While dynamic content can be cached, more sophisticated cache control and caching rules are required to ensure accuracy.         |
 | **Setup**      | Requires CDN provider setup and DNS config            | Implemented via plugins, headers, or browser settings    |
 
 ---
