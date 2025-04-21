@@ -82,3 +82,6 @@ The cache **proactively refreshes** data **before** it expires to avoid a miss d
 Useful in **time-sensitive systems** like **stock tickers** or **news feeds**.
 
 ---
+
+![caching_stratigies](https://github.com/user-attachments/assets/14ea0c1a-95f0-4305-a796-b037c4dd6ab9)
+)
