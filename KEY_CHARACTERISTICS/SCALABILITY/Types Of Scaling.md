@@ -21,8 +21,7 @@
 * **⚠️ Single point of failure**: If the server dies → system goes down.
 
 > 🎯 **Best For:** Legacy applications, databases requiring ACID properties, applications with complex inter-component communication
-![Vertical Scalability](<img width="1344" height="593" alt="image" src="https://github.com/user-attachments/assets/1e8fa663-1c4e-4fb7-8cc5-bc9ae826498f" />
-)
+<img width="1344" height="593" alt="Vertical Scalability" src="https://github.com/user-attachments/assets/1e8fa663-1c4e-4fb7-8cc5-bc9ae826498f" />
 ---
 
 ## 🔹 **Horizontal Scaling (Scaling Out)**
@@ -55,7 +54,7 @@
 | **Vertical Scaling** | **Horizontal Scaling** |
 |---------------------|------------------------|
 | Making a single bucket **bigger** | Getting **more buckets** and dividing water among them |
-| 🪣➡️🪣⬆️ | 🪣➡️🪣🪣🪣 |
+
 
 ---
 
