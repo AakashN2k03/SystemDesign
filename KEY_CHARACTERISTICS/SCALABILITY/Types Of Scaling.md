@@ -22,7 +22,6 @@
 
 > 🎯 **Best For:** Legacy applications, databases requiring ACID properties, applications with complex inter-component communication
 <img width="1344" height="593" alt="Vertical Scalability" src="https://github.com/user-attachments/assets/1e8fa663-1c4e-4fb7-8cc5-bc9ae826498f" />
----
 
 ## 🔹 **Horizontal Scaling (Scaling Out)**
 
@@ -48,6 +47,8 @@
 > 🎯 **Best For:** Web applications, microservices, stateless applications, high-traffic systems
 
 ---
+
+<img width="1451" height="421" alt="image" src="https://github.com/user-attachments/assets/a7c89d29-44b8-4c38-842d-799cc49412d4" />
 
 ## 🪣 **Analogy**
 
