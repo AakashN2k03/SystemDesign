@@ -21,8 +21,8 @@
 * **⚠️ Single point of failure**: If the server dies → system goes down.
 
 > 🎯 **Best For:** Legacy applications, databases requiring ACID properties, applications with complex inter-component communication
-![Uploading image.png…]()
-
+![Vertical Scalability](<img width="1344" height="593" alt="image" src="https://github.com/user-attachments/assets/1e8fa663-1c4e-4fb7-8cc5-bc9ae826498f" />
+)
 ---
 
 ## 🔹 **Horizontal Scaling (Scaling Out)**
@@ -87,30 +87,3 @@
 
 ---
 
-## 🎯 **Decision Framework**
-
-### **Choose Vertical Scaling When:**
-* 🔹 **Budget allows** for high-end hardware
-* 🔹 **Application is not distributed-friendly**
-* 🔹 **Quick solution needed**
-* 🔹 **Consistency is critical**
-
-### **Choose Horizontal Scaling When:**
-* 🔹 **Expecting massive growth**
-* 🔹 **Budget constraints exist**
-* 🔹 **Fault tolerance is crucial**
-* 🔹 **Global user base**
-
----
-
-## 💡 **Pro Tips**
-
-> **🔥 Hybrid Approach:** Many successful systems use both strategies:
-> - Scale up individual servers to a reasonable limit
-> - Then scale out by adding more servers
-> 
-> **Example:** Netflix uses powerful servers (vertical) distributed globally (horizontal)
-
-> **⚖️ The CAP Theorem:** Remember that horizontal scaling often involves trade-offs between Consistency, Availability, and Partition tolerance
-
-> **🏗️ Architecture Matters:** Design your application to be "scale-out ready" from day one - it's harder to retrofit later!
